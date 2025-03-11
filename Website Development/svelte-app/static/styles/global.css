@@ -11,7 +11,7 @@
 
     /* Font Variables */
     --font-family: 'Arial', sans-serif;
-    --font-size-base: 16px;
+    --font-size-base: 20px;
     --line-height-base: 1.6;
 
     /* Spacing Variables */
@@ -36,7 +36,7 @@
 body {
     font-family: var(--font-family);
     font-size: var(--font-size-base);
-    background-color: var(--background-color);
+    background-color: #8590af;
     color: var(--text-color);
     line-height: var(--line-height-base);
 }

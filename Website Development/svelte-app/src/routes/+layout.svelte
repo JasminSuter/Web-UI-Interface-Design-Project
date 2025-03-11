@@ -13,7 +13,6 @@
 <Footer />
 
 <style>
-    
     main {
         padding: 2rem;
         color: white;

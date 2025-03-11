@@ -19,8 +19,8 @@
     /*Header Styling*/
     header {
         background-color: #111111;
-        padding: 1rem;
-        text-align: center;
+        padding: 4rem;
+        text-align: right;
     }
     /*Logo container*/
     .logo {
