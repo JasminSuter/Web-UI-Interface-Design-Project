@@ -29,7 +29,7 @@
 <style>
     
     header {
-        background-color: #007bff;
+        background-color: #111111;
         padding: 1rem;
         text-align: center;
     }
@@ -48,22 +48,25 @@
     
     nav ul li a {
         text-decoration: none;
-        color: white;
+        color: #8590af;
         font-weight: bold;
     }
     
     main {
         padding: 2rem;
+        color: white;
         text-align: center;
+        background-color: #8590af;
     }
     
     footer {
-        background-color: #343a40;
-        color: white;
+        background-color: #111111;
+        color: #8590af;
         text-align: center;
         padding: 1rem;
         position: fixed;
         bottom: 0;
         width: 100%;
     }
+
 </style>
