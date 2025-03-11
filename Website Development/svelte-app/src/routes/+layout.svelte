@@ -30,8 +30,8 @@
     
     header {
         background-color: #111111;
-        padding: 1rem;
-        text-align: center;
+        padding: 4rem;
+        text-align: right;
     }
     
     nav ul {
@@ -50,6 +50,7 @@
         text-decoration: none;
         color: #8590af;
         font-weight: bold;
+        
     }
     
     main {
