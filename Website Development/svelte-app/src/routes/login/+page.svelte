@@ -20,6 +20,3 @@
     <input type="submit">
 </form>
 
-<style>
-h1 {color: #564cbe ;}
-</style>
