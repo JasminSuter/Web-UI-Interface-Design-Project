@@ -1,7 +1,7 @@
+
 <script>
     import { Navigation } from "$lib";
 </script>
-
 <!-- Header -->
 <header>
     <!-- logo-->
