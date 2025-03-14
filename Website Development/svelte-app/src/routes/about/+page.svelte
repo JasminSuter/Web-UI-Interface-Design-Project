@@ -9,10 +9,10 @@
 <h1>About us  </h1>
 
 <p>We are a website dedicated to the artist. Our vision is to streamline the interactions and communication between patron and artist.
- To create an environment in which the artist can create a sustainable living and show case their work.  </p>
+ To create an environment in which the artist can create a sustainable living and showcase their work.  </p>
 
-<p>Often the artist is an after though as algorithm is first. It is important to us not to fall into that trap. 
-Our algorithm is to befit the artist. To prioritize our artists futures and businesses.  </p>
+<p>Often the artist is an afterthought as algorithm is first. It is important for us to not fall into that trap. 
+Our algorithm is to benefit the artist. To prioritize our artists' futures and businesses.  </p>
 
 <p>Join us on an artist first approach. </p>
 
