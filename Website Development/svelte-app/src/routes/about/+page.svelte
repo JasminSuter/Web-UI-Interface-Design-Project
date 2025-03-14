@@ -16,7 +16,7 @@ Our algorithm is to befit the artist. To prioritize our artists futures and busi
 
 <p>Join us on an artist first approach. </p>
 
- <p>   <img src = "/PlaceholderLogo.png"> </p>
+ <p>   <img src = "/PlaceholderLogo.png"alt="logo" > </p>
  <h2> Contact us at </h2>
  <p>Rebecca Hollidge -  c00300511@setu.ie</p>
  <p>Sophia Stanley - c00299461@setu.ie</p>
@@ -24,10 +24,9 @@ Our algorithm is to befit the artist. To prioritize our artists futures and busi
 
 
 <style>
-p{text-align: center; font-size: 20px;}
-p{vertical-align: middle;}
-p{line-height: 30px; }
-p{ padding-left: 300px; padding-right: 300px;}
-img {height:
-    200px;width: 200px;}
-    </style>
+    p{text-align: center; font-size: 20px;}
+    p{vertical-align: middle;}
+    p{line-height: 30px; }
+    p{ padding-left: 300px; padding-right: 300px;}
+    img {height: 200px;width: 200px;}
+</style>
