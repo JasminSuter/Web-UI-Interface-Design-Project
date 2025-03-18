@@ -35,4 +35,10 @@
     h1{
         color: #ffffff;
     }
+    /* Making the header responsive */
+    @media (max-width: 768px) {
+        header {
+            text-align: center;
+        }
+    }
 </style>

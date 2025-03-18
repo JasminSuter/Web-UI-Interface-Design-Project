@@ -26,4 +26,10 @@
     a{
         color: #f5eded;
     }
+    /* Responsive view */
+    @media (max-width: 768px) {
+        footer {
+            font-size: 0.9rem;
+        }
+    }
 </style>

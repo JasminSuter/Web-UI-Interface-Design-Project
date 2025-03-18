@@ -23,13 +23,12 @@
 <style>
     /* Flexbox for Dynamic Layout */
     .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; /* Creates spacing between items */
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Responsive Column*/
+        gap: 40px; /* Creates spacing between items */
         margin-top: 2rem;
     }
-
+    
     /* Pseudo-Element: Add Decorative Lines Before Gallery */
     .gallery::before {
         content: "Featured Cards";
