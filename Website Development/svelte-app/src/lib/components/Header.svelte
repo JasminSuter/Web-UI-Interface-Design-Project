@@ -37,7 +37,6 @@
     /* Making the header responsive */
     @media (max-width: 768px) {
         header {
-            padding: 1rem;
             text-align: center;
         }
     }

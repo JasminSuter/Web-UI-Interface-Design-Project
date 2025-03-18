@@ -25,9 +25,7 @@
     /* Responsive view */
     @media (max-width: 768px) {
         footer {
-            padding:0.75rem;
             font-size: 0.9rem;
-            position: relative;
         }
     }
 </style>
