@@ -4,6 +4,8 @@
     import { Navigation } from "$lib";
 </script><footer>
     <p><a href="/about">About</a></p>
+    <p><a href="/faq">FAQ</a></p>
+    <p><a href="/terms">Terms of service </a></p>
 </footer>
 
 
@@ -12,7 +14,7 @@
         
         background-color: #111111;
         text-align: center;
-        padding: 1rem;
+        padding: 0.5rem;
         position: relative;
         bottom: 0;
         width: 100%;
