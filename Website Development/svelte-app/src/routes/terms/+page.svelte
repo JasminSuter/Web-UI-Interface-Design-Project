@@ -2,6 +2,6 @@
     import { onMount } from 'svelte';
 
     onMount(() => {
-        console.log("Contact Page Loaded");
+        console.log("Terms of Service Page Loaded");
     });
 </script>
