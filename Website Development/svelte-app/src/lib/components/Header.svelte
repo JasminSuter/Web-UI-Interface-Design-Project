@@ -21,6 +21,7 @@
         background-color: #111111;
         padding: 1rem;
         text-align: right;
+       
     }
     /*Logo container*/
     .logo {
@@ -28,7 +29,7 @@
         align-items: center;
     }
     .logo img {
-        width: 50px;
+        width: 75px;
         margin-right: 0.625rem;
     }
     h1{

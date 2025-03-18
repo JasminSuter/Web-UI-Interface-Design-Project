@@ -14,7 +14,6 @@
         <li><a href="/">Home</a></li>
         <li><a href="/profile">Profile</a></li>
         <li><a href="/request">Requests</a></li>
-        <li><a href="/about">About</a></li>
     </ul>
 </nav>
 
@@ -30,6 +29,7 @@
     
     nav ul li {
         margin: 0 15px;
+        font-size: 2rem;
     }
     
     nav ul li a {
