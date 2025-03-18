@@ -11,7 +11,6 @@
     footer {
         
         background-color: #111111;
-        color: #376af8;
         text-align: center;
         padding: 1rem;
         position: relative;
@@ -20,5 +19,13 @@
     }
     a{
         color: #f5eded;
+    }
+    /* Responsive view */
+    @media (max-width: 768px) {
+        footer {
+            padding:0.75rem;
+            font-size: 0.9rem;
+            position: relative;
+        }
     }
 </style>

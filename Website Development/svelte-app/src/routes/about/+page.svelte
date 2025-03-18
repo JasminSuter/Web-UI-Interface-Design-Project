@@ -27,6 +27,7 @@ Our algorithm is to benefit the artist. To prioritize our artists' futures and b
     p{text-align: center; font-size: 20px;}
     p{vertical-align: middle;}
     p{line-height: 30px; }
-    p{ padding-left: 300px; padding-right: 300px;}
+    p{ padding-left: 20%; padding-right: 20%;}
     img {height: 200px;width: 200px;}
+
 </style>
