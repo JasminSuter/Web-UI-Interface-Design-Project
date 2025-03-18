@@ -19,7 +19,7 @@
     /*Header Styling*/
     header {
         background-color: #111111;
-        padding: 4rem;
+        padding: 1rem;
         text-align: right;
     }
     /*Logo container*/
