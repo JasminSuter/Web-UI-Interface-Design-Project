@@ -31,6 +31,11 @@
     .logo img {
         width: 75px;
         margin-right: 0.625rem;
+        transition: 0.5s;
+    }
+
+    .logo img:hover {
+        transform: rotate(360deg);
     }
     h1{
         color: #ffffff;

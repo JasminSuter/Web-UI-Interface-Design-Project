@@ -36,6 +36,11 @@
         text-decoration: none;
         color: #8590af;
         font-weight: bold;
+        transition: 0.5s;
+    }
+
+    nav ul li a:hover {
+        color: #5b6275; 
     }
 
     /* 🍔 Burger Menu (Hidden on Large Screens) */
@@ -56,6 +61,11 @@
         .burger {
             display: block; /* Show burger icon */
             left: 90%;
+            transition: 0.5s;
+        }
+
+        .burger:hover {
+            transform: rotate(180deg);
         }
 
         .nav ul {
