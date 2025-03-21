@@ -16,12 +16,15 @@
         color: #8590af;
         text-align: center;
         padding: 0.5rem;
-        position: relative;
+        position: bottom;
         bottom: 0;
         width: 100%;
         flex-direction: column;
+        
+
         list-style: none;
         font-size: 14px;
+        
     }
     a{
         color: #f5eded;
