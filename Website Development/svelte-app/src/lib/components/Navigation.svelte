@@ -19,6 +19,10 @@
 
 
 <style>
+    @keyframes burgerOpen { /* make the burger menu fade in when opening */
+        from {opacity: 0%;}
+        to {opacity: 100%;}
+    }
     nav ul {
         list-style: none;
         padding: 0;
@@ -36,7 +40,7 @@
         text-decoration: none;
         color: #8590af;
         font-weight: bold;
-        transition: 0.5s;
+        transition: 0.25s;
     }
 
     nav ul li a:hover {
@@ -61,7 +65,7 @@
         .burger {
             display: block; /* Show burger icon */
             left: 90%;
-            transition: 0.5s;
+            transition: 0.25s;
         }
 
         .burger:hover {
@@ -79,6 +83,8 @@
             text-align: left;
             padding: 1rem 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation-name: burgerOpen;
+            animation-duration: 0.25s;
         }
 
         .nav ul.open {
