@@ -6,6 +6,7 @@
     <li><a href="/about">About</a></li>
     <li><a href="/faq">FAQ</a></li>
     <li><a href="/terms">Terms of service </a></li>
+    <li><a href="/blog">News </a></li>
 </footer>
 
 

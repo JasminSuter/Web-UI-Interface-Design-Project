@@ -26,11 +26,11 @@
 
 
 <div class="container">
-    <p>   <img src = "/PlaceholderLogo.png"alt="logo" > </p>
     <h1 class="error-code">404</h1>
     <p class="message">
     Sorry, the page <code>{page.url.pathname}</code> doesn't exist.
     </p>
+    <img src = "/logo.png"alt="logo" > 
     <a class="home-button" href="/">← Go back home</a>
 </div>
   
