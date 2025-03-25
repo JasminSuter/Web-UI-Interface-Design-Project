@@ -1,6 +1,26 @@
 <script>
+    export let error;
+    export let status;
     import { page } from '$app/state';
 </script>
+
+
+<div class="container" role="alert">
+    <h1 class="error-code">{status ?? 404}</h1>
+
+    {#if status === 404 || (!status && error == null)}
+        <p class="message">
+            Sorry, the page <code>{page.url.pathname}</code> doesn’t exist.
+        </p>
+    {:else if error}
+        <p class="message">{error.message}</p>
+    {:else}
+        <p class="message">An unknown error occurred.</p>
+    {/if}
+
+    <a class="home-button" href="/">← Go back home</a>
+</div>
+
   
 
 
@@ -66,15 +86,27 @@
     .home-button:focus {
         background-color: var(--primary-dark, #8590af);
     }
+    @keyframes popIn {
+        from { opacity: 0; transform: scale(0.85); }
+        to { opacity: 1; transform: scale(1); }
+    }
 
-    @keyframes pop {
-        from {
-            opacity: 0;
-            transform: scale(0.8);
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: var(--mobile-breakpoint)) {
+        .error-code {
+            font-size: var(--font-xxl);
         }
-        to {
-            opacity: 1;
-            transform: scale(1);
+
+        .message {
+            font-size: var(--font-lg);
+        }
+
+        .home-button {
+            font-size: var(--font-base);
         }
     }
 </style>
