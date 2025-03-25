@@ -16,7 +16,7 @@ Our algorithm is to benefit the artist. To prioritize our artists' futures and b
 
 <p>Join us on an artist first approach. </p>
 
- <p>   <img src = "/PlaceholderLogo.png"alt="logo" > </p>
+ <p>   <img src = "/logo.png"alt="logo" > </p>
  <h2> Contact us at </h2>
  <p>Rebecca Hollidge -  c00300511@setu.ie</p>
  <p>Sophia Stanley - c00299461@setu.ie</p>

@@ -6,7 +6,7 @@
 <header>
     <!-- logo-->
     <div class = "logo">
-        <img src="/PlaceholderLogo.png" alt ="Website Logo">
+        <img src="/logoB.png" alt ="Website Logo">
         <h1>Web UI Design</h1>
     </div>
 
