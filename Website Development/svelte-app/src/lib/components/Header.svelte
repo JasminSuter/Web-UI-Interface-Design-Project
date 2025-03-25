@@ -7,7 +7,7 @@
     <!-- logo-->
     <div class = "logo">
         <img src="/PlaceholderLogo.png" alt ="Website Logo">
-        <h1>Web UI Design</h1>
+        <h1>art/srj</h1>
     </div>
 
     <!--importing the header from navigation-->
