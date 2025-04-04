@@ -7,21 +7,32 @@
     })
 </script>
 
-<h1>Home Page</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+
 
 <!-- Gallery Container -->
 <div class="gallery">
-    <Card title="Card 1" description="This is the first card." />
-    <Card title="Card 2" description="This is the second card." />
-    <Card title="Card 3" description="This is the third card." />
-    <Card title="Card 4" description="This is the fourth card." />
-    <Card title="Card 5" description="This is the fifth card." />
-    <Card title="Card 6" description="This is the sixth card." />
+    <img src="ART_1.png" alt ="art-1">
+    <img src="ART_2.png" alt ="art-2">
+    <img src="ART_3.png" alt ="art-3">
+    <img src="ART_4.png" alt ="art-4">
+    <img src="ART_5.png" alt ="art-5">
+    <img src="ART_6.png" alt ="art-6">
+    <img src="ART_7.png" alt ="art-7">
+    <img src="ART_8.png" alt ="art-8">
+    <img src="ART_9.png" alt ="art-9">
+    <img src="ART_10.png" alt ="art-10">
+    <img src="ART_11.png" alt ="art-11">
+    <img src="ART_12.png" alt ="art-12">
+    <img src="ART_13.png" alt ="art-13">
 </div>
 
 <style>
     /* Flexbox for Dynamic Layout */
+    img{
+            height: 100%;
+            width :100%;
+            
+    }
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Responsive Column*/
@@ -29,12 +40,7 @@
         margin-top: 2rem;
     }
     
-    /* Pseudo-Element: Add Decorative Lines Before Gallery */
-    .gallery::before {
-        content: "Featured Cards";
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
+  
 
     /* Pseudo-Element: Add Decorative Line After Gallery */
     .gallery::after {
@@ -46,30 +52,30 @@
     }
 
     /* Apply a different background color to even-numbered cards */
-    :global(.gallery > .card:nth-child(even)) {
+    :global(.gallery > .img:nth-child(even)) {
         background-color: #ebebeb;
     }
 
     /* Apply a hover effect: spotlight effect on the hovered card */
-    :global(.gallery > .card:hover) {
+    :global(.gallery > .img:hover) {
         transform: scale(1.1); /* Scale up the hovered card */
         z-index: 2; /* Bring it to the front */
     }
 
     /* Reduce the size of adjacent siblings when a card is hovered */
-    :global(.gallery > .card:hover ~ .card) {
+    :global(.gallery > .img:hover ~ .img) {
         transform: scale(0.9); /* Reduce size of adjacent cards */
         opacity: 0.8; /* Slightly fade them */
     }
 
     /* Reduce the size of adjacent siblings when a card is hovered */
-    :global(.gallery > .card:hover + .card) {
+    :global(.gallery > .img:hover + .img) {
         transform: scale(0.95); /* Reduce size of adjacent cards */
         opacity: 0.9; /* Slightly fade them */
     }
 
     /* Exclude the first and last card from being affected by nth-child styling */
-    :global(.gallery > .card:not(:first-child):not(:last-child)) {
+    :global(.gallery > .img:not(:first-child):not(:last-child)) {
         border-radius: 18px; /* Softens edges for middle cards */
     }
     </style>
