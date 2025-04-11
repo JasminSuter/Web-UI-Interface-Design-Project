@@ -22,7 +22,7 @@
 
 <style>
     h2{
-        color:  #ffffff;
+        color:  #000000;
     }
     /* Card container with smooth hover effects */
     .card {
@@ -32,7 +32,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
         overflow: hidden; /* Don't display any content that goes beyond card boundary */
         width: 280px;
-        height: 420px;
+        height: 620px;
         text-align: center;
         transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
         position: relative; 
@@ -44,7 +44,7 @@
         text-align: left;
         
         /* positions the card in the bottom left corner of the card with some padding*/
-		bottom: 10px;
+		bottom: 40px;
 		left: 10px;
 		right: 10px;
 	}
@@ -83,7 +83,7 @@
     /* Description Styling */
     .content p {
         font-size: 1rem;
-        color: #555;
+        color: #000000;
     }
 
     /* Pseudo-Element: Adds a thin underline before the card title
@@ -93,7 +93,7 @@
         display: block;
         width: 40%;
         height: 2px;
-        background:  #ffffff;
+        background:  #000000;
         margin: 0 auto 10px auto;
         transition: width 0.3s ease-in-out;
     }
@@ -107,7 +107,7 @@
     }
 
     .card:hover .card-image {
-        object-fit: contain; /* Ensures image fills the card without stretching */
+        object-fit: cover; /* Ensures image fills the card without stretching */
         display: block;
         position: absolute;
         top: 0;
@@ -127,7 +127,7 @@
 		transition: opacity 0.3s ease, visibility 0s 0s; /* Smooth transition */
 	}
 
-    
-
 </style>
+
+
 

@@ -24,7 +24,7 @@
 <div class="column right">
 <!-- Image Containers in the gallery -->
     <div class="image">
-        <Card title="Image 1" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="TEST_1.png"/>
+        <Card title="Hugs" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="TEST_1.png"/>
         <Card title="Image 2" description="This is the second image." image="TEST_2.png"/>
         <Card title="Image 3" description="This is the third image." image="TEST_3.png"/>
         <Card title="Image 4" description="This is the fourth image." image="TEST_4.png"/>
@@ -44,7 +44,7 @@
     }
 
     .right {
-        margin-top: -25rem;
+        margin-top: -40rem;
         margin-left: 20rem;
     }
 
@@ -79,11 +79,12 @@
 
     /* Overrides above rule for image currently hovered over*/
     :global(.image .card:hover) {
-        transform: scale(2);
+        transform: scale(1.8);
         opacity: 1;
         z-index: 3;
         transition: transform 0.3s ease, opacity 0.3s ease;
     }
+
     /* all other cards shrink and fade slightly when hovering over a card*/
     :global(.card) {
         transition: transform 0.3s ease, opacity 0.3s ease;
