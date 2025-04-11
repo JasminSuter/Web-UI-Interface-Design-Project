@@ -4,7 +4,7 @@ By
 
 Rebecca Hollidge – c00300511 
 
-Sophia Stanly – c00299461 
+Sophia Stanley – c00299461 
 
 Jasmin Suter - c00301545 
 
