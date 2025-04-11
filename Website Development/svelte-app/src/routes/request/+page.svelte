@@ -7,6 +7,10 @@
     })
 </script>
 
+<svelte:head>
+	<title>Commission Requests</title>
+</svelte:head>
+
 <h1>Commission Requests</h1>
 
 <p>Look at requests from users looking for artists to commission.</p>
@@ -24,11 +28,10 @@
     description="Looking for a 3D artist to create gun models for an upcoming First Person Shooter game."></Form>
 
     <Form title="Cyanorange3" medium="2D Art" genre="Cartoony" dueDate="01/05/25" price="$30" description="Want to commission an artist to draw my OC! :D"></Form>
-    
-    <Form title="x" medium="x" genre="x" dueDate="x" price="x" description="x"></Form>
-    <Form title="x" medium="x" genre="x" dueDate="x" price="x" description="x"></Form>
-    <Form title="x" medium="x" genre="x" dueDate="x" price="x" description="x"></Form>
-    <Form title="x" medium="x" genre="x" dueDate="x" price="x" description="x"></Form>
+
+    <Form title="Bryan Grayson" medium="3D Animation" genre="Action" dueDate="22/07/25" price="$350" description="Need a 3D animator to animate a fight scene for me."></Form>
+
+    <Form title="John Smith" medium="2D Concept Art" genre="Cozy" dueDate="11/04/25" price="$20" description="Looking for concept art for a cozy RPG!"></Form>
 </div>
 
 

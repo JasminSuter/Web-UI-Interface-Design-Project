@@ -6,6 +6,10 @@
     });
 </script>
 
+<svelte:head>
+	<title>About art/srj</title>
+</svelte:head>
+
 <h1>About us  </h1>
 
 <p>We are a website dedicated to the artist. Our vision is to streamline the interactions and communication between patron and artist.

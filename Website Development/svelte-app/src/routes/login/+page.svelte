@@ -67,11 +67,11 @@
 	<h3>You are logged in as: {$username}</h3>
 	<button on:click={handleLogout}>Logout</button>
 {:else}
-	<p>Username</p>
-	<input type="username" bind:value={$username} placeholder="enter username" />
+	<h3>Username</h3>
+	<input type="username" bind:value={$username} placeholder="Enter username" />
 	<br>
-	<p>Password</p>
-	<input type="password" bind:value={$password} placeholder="enter password" />
+	<h3>Password</h3>
+	<input type="password" bind:value={$password} placeholder="Enter password" />
 	<br>
 	<button on:click={handleLogin}>Login</button>
 {/if}
@@ -88,5 +88,9 @@
 	.login button {
 		height: 50%;
 		width: 10%;
+	}
+	.login h3 {
+		color: #111111;
+		font-weight: bold;
 	}
 </style>

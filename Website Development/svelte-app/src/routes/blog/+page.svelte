@@ -5,6 +5,11 @@
         console.log("Terms of Service Page Loaded");
     });
 </script>
+
+<svelte:head>
+	<title>News</title>
+</svelte:head>
+
 <div class = "blog">
 
     <h1>News</h1>
