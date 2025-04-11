@@ -1,6 +1,7 @@
 <script>
     import { onMount } from 'svelte';
     import { Card } from '$lib';
+	import ProfileCard from '$lib/components/ProfileCard.svelte';
 
     onMount(() => {
         console.log("Profile Page Loaded");
@@ -8,12 +9,13 @@
 </script>
 
 <h1>Profile</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<p>This is your profile!</p>
 
 <div class="column left">
 <!-- Profile picture container -->
     <div class="profilepic">
-        <Card title="Profilepic" description="This is your profile"/>
+        <ProfileCard title="Max Muster" description="Hello! I am an artist doing art and stuff." image="PROFILE.png"/>
+        
     </div>
 
     
@@ -22,12 +24,12 @@
 <div class="column right">
 <!-- Image Containers in the gallery -->
     <div class="image">
-        <Card title="Image 1" description="This is the first image." />
-        <Card title="Image 2" description="This is the second image." />
-        <Card title="Image 3" description="This is the third image." />
-        <Card title="Image 4" description="This is the fourth image." />
-        <Card title="Image 5" description="This is the fifth image." />
-        <Card title="Image 6" description="This is the sixth image." />
+        <Card title="Image 1" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="TEST_1.png"/>
+        <Card title="Image 2" description="This is the second image." image="TEST_2.png"/>
+        <Card title="Image 3" description="This is the third image." image="TEST_3.png"/>
+        <Card title="Image 4" description="This is the fourth image." image="TEST_4.png"/>
+        <Card title="Image 5" description="This is the fifth image." image="TEST_5.png"/>
+        <Card title="Image 6" description="This is the sixth image." image="TEST_6.png"/>
     </div>
 </div>
 
@@ -68,32 +70,23 @@
         margin: 2rem auto 0 auto;
     }
 
-    /* Apply a different background color to even-numbered cards */
-    :global(.image > .card:nth-child(even)) {
-        background-color: #ebebeb;
+    /* Target all cards when hovering inside image container*/
+    :global(.image:hover .card) {
+        transform: scale(0.95);
+        opacity: 0.8;
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
-    /* Apply a hover effect: spotlight effect on the hovered card */
-    :global(.image > .card:hover) {
-        transform: scale(1.1); /* Scale up the hovered card */
-        z-index: 2; /* Bring it to the front */
+    /* Overrides above rule for image currently hovered over*/
+    :global(.image .card:hover) {
+        transform: scale(2);
+        opacity: 1;
+        z-index: 3;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    /* all other cards shrink and fade slightly when hovering over a card*/
+    :global(.card) {
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
-    /* Reduce the size of adjacent siblings when a card is hovered */
-    :global(.image > .card:hover ~ .card) {
-        transform: scale(0.9); /* Reduce size of adjacent cards */
-        opacity: 0.8; /* Slightly fade them */
-    }
-
-    /* Reduce the size of adjacent siblings when a card is hovered */
-    :global(.image > .card:hover + .card) {
-        transform: scale(0.95); /* Reduce size of adjacent cards */
-        opacity: 0.9; /* Slightly fade them */
-    }
-
-    /* Exclude the first and last card from being affected by nth-child styling */
-    :global(.image > .card:not(:first-child):not(:last-child)) {
-        border-radius: 18px; /* Softens edges for middle cards */
-    }
-
-            </style>
+</style>
