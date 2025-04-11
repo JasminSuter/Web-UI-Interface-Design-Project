@@ -14,28 +14,23 @@
 
 <!-- Gallery Container -->
 <div class="gallery">
-    <img src="ART_1.png" alt ="art-1">
-    <img src="ART_2.png" alt ="art-2">
-    <img src="ART_3.png" alt ="art-3">
-    <img src="ART_4.png" alt ="art-4">
-    <img src="ART_5.png" alt ="art-5">
-    <img src="ART_6.png" alt ="art-6">
-    <img src="ART_7.png" alt ="art-7">
-    <img src="ART_8.png" alt ="art-8">
-    <img src="ART_9.png" alt ="art-9">
-    <img src="ART_10.png" alt ="art-10">
-    <img src="ART_11.png" alt ="art-11">
-    <img src="ART_12.png" alt ="art-12">
-    <img src="ART_13.png" alt ="art-13">
+    <Card title="Image 2" description="This is the second image." image="ART_1.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_2.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_3.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_4.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_5.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_6.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_7.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_8.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_9.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_10.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_11.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_12.png"/>
+    <Card title="Image 2" description="This is the second image." image="ART_13.png"/>
 </div>
 
 <style>
-    /* Flexbox for Dynamic Layout */
-    img{
-            height: 100%;
-            width :100%;
-            
-    }
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Responsive Column*/
@@ -43,8 +38,6 @@
         margin-top: 2rem;
     }
     
-  
-
     /* Pseudo-Element: Add Decorative Line After Gallery */
     .gallery::after {
         content: "";

@@ -41,7 +41,6 @@
 
     .description {
 		visibility: hidden; /* Hide the description by default */
-		opacity: 0; /* Make it fully transparent */
 		transition: opacity 0.3s ease, visibility 0s 0.3s; /* Smooth transition */
 		position: absolute; /* position within the card is absolute */
         text-align: left;

@@ -18,7 +18,10 @@
 <div class="column left">
 <!-- Profile picture container -->
     <div class="profilepic">
-        <ProfileCard title="Max Muster" description="Hello! I am an artist doing art and stuff." image="PROFILE.png"/>
+        <ProfileCard title="Max Muster" description="Hello! I am an artist doing art and stuff. Here is some of my art :)" 
+        medium="2D Digital Art and Illustrations" genre="Fantasy, DnD, Comics, Illustrations"  
+        price="Starting at €20 for characters, +€15 for each following character or background elements" 
+        other="I mostly draw fantasy art of silly characters, but I'm open for anything so just message me if you like my artsyle!" image="PROFILE_1.png"/>
         
     </div>
 
@@ -48,7 +51,7 @@
     }
 
     .right {
-        margin-top: -40rem;
+        margin-top: -54rem;
         margin-left: 20rem;
     }
 
@@ -92,6 +95,32 @@
     /* all other cards shrink and fade slightly when hovering over a card*/
     :global(.card) {
         transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+
+    :global(.card-profilepic) {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; /* Makes the image circular */
+        border: 5px solid #ffffff; /* White border around the image */
+        object-fit: cover; /* Ensures the image covers the entire area */
+        margin-bottom: 15px;
+    }
+
+    :global(.card-description) {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    :global(.profilepic img) {
+        transition: transform 0.5s ease; /* Smooth transition for the rotation */
+        width: 100%; /* Ensures the image fills the container */
+        height: 100%; /* Ensures the image fills the container */
+        object-fit: cover; /* Maintains aspect ratio and covers the container */
+    }
+
+    :global(.profilepic:hover img) {
+        transform: rotate(360deg); /* Rotates the image 360 degrees */
     }
 
 </style>
