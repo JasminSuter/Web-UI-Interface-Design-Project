@@ -87,7 +87,7 @@
     /* Description Styling */
     .content p {
         font-size: 0.8rem;
-        color: #555;
+        color: rgb(236, 240, 253);
     }
 
     /* Pseudo-Element: Adds a thin underline before the card title
@@ -111,7 +111,7 @@
     }
 
     .card:hover .card-image {
-        object-fit: contain; /* Ensures image fills the card without stretching */
+        object-fit: contain; /* Ensures image stays small while card is widening */
         display: block;
         position: absolute;
         top: 0;
@@ -135,4 +135,3 @@
     
 
 </style>
-
