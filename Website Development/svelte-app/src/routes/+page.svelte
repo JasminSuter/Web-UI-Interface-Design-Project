@@ -14,19 +14,19 @@
 
 <!-- Gallery Container -->
 <div class="gallery">
-    <Card title="Image 2" description="This is the second image." image="ART_1.png"/>
+    <Card title="Image 1" description="This is the second image." image="ART_1.png"/>
     <Card title="Image 2" description="This is the second image." image="ART_2.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_3.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_4.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_5.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_6.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_7.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_8.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_9.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_10.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_11.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_12.png"/>
-    <Card title="Image 2" description="This is the second image." image="ART_13.png"/>
+    <Card title="Image 3" description="This is the second image." image="ART_3.png"/>
+    <Card title="Image 4" description="This is the second image." image="ART_4.png"/>
+    <Card title="Image 5" description="This is the second image." image="ART_5.png"/>
+    <Card title="Image 6" description="This is the second image." image="ART_6.png"/>
+    <Card title="Image 7" description="This is the second image." image="ART_7.png"/>
+    <Card title="Image 8" description="This is the second image." image="ART_8.png"/>
+    <Card title="Image 9" description="This is the second image." image="ART_9.png"/>
+    <Card title="Image 10" description="This is the second image." image="ART_10.png"/>
+    <Card title="Image 11" description="This is the second image." image="ART_11.png"/>
+    <Card title="Image 12" description="This is the second image." image="ART_12.png"/>
+    <Card title="Image 13" description="This is the second image." image="ART_13.png"/>
 </div>
 
 <style>
