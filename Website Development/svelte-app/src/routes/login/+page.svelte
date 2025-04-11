@@ -62,11 +62,23 @@
 	<title>Log In</title>
 </svelte:head>
 
+<div class="login">
 {#if isLogged}
 	<h3>You are logged in as: {$username}</h3>
 	<button on:click={handleLogout}>Logout</button>
 {:else}
+	<p>Username</p>
 	<input type="username" bind:value={$username} placeholder="enter username" />
+	<br>
+	<p>Password</p>
 	<input type="password" bind:value={$password} placeholder="enter password" />
+	<br>
 	<button on:click={handleLogin}>Login</button>
 {/if}
+</div>
+
+<style>
+	.login {
+		justify-content: center;
+	}
+</style>
