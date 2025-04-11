@@ -81,4 +81,12 @@
 	.login {
 		justify-content: center;
 	}
+	.login input
+	{
+		height: 30px;
+	}
+	.login button {
+		height: 50%;
+		width: 10%;
+	}
 </style>
