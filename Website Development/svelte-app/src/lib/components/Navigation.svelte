@@ -15,6 +15,7 @@
         <li><a href="/profile">Profile</a></li>
         <li><a href="/request">Requests</a></li>
         <li><a href="/login">Log In</a></li>
+        <li><a href="/upload">Upload</a></li>
     </ul>
 </nav>
 
