@@ -2,17 +2,23 @@
 <script lang="ts">
     let file: FileList | null = null; /* file can either be a file list, initialized to null so no file selected is the default */
   
-    let imageUrl: string | ArrayBuffer | null = null;
+    let imageUrl: string | ArrayBuffer | null = null; 
 
+    /* function is triggered by input type=file */
     function handleFileSelect(event: Event): void {
-      const input = event.target as HTMLInputElement;
-      const file = input?.files?.[0];
+      const input = event.target as HTMLInputElement; /* retrieve file input element that triggered event */
+      const file = input?.files?.[0]; /* get first file from input file or return undefined if null */
+
+      /* check wether file was selected */
       if (file) {
-        const reader = new FileReader();
-        reader.onload = () => {
+        const reader = new FileReader(); /* read the content of file */
+
+        /* event handler to update imageUrl with result of filereader */
+        reader.onload = () => { 
           imageUrl = reader.result;
         };
-        reader.readAsDataURL(file);
+
+        reader.readAsDataURL(file); /* reads file and encodes it as a string so it can be displayed in the browser */
       }
     }
   </script>
@@ -30,7 +36,7 @@
 
     <div> 
       {#if imageUrl}
-        <img src={imageUrl as string} alt="preview" style="max-width: 300px; margin-top: 10px;" />
+        <img src={imageUrl as string} alt="preview" style="max-width: 800px; margin-top: 10px;" />
       {/if}
     </div>
     

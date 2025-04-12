@@ -32,11 +32,11 @@
 <!-- Image Containers in the gallery -->
     <div class="image">
         <Card title="Hugs" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="TEST_1.png"/>
-        <Card title="Image 2" description="This is the second image." image="TEST_2.png"/>
-        <Card title="Image 3" description="This is the third image." image="TEST_3.png"/>
-        <Card title="Image 4" description="This is the fourth image." image="TEST_4.png"/>
-        <Card title="Image 5" description="This is the fifth image." image="TEST_5.png"/>
-        <Card title="Image 6" description="This is the sixth image." image="TEST_6.png"/>
+        <Card title="Learnean Menace" description="A greek themed dnd party." image="TEST_2.png"/>
+        <Card title="Beyond the forest creek" description="This is a commission I did for a childrens book" image="TEST_3.png"/>
+        <Card title="The Troubleshooters" description="From left to right: Kassa a dhampir necromancer, Kalina a fetchling witch, Noro a halfling barbarian and Sy'len a ghost fighter" image="TEST_4.png"/>
+        <Card title="DnD Party" description="I drew my dnd group!" image="TEST_5.png"/>
+        <Card title="AAAAAHHHHHHHHHH" description="A scene from my dnd game lol" image="TEST_6.png"/>
     </div>
 </div>
 

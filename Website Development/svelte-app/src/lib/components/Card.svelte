@@ -81,6 +81,7 @@
     .content h2 {
         font-size: 1.2rem;
         margin-bottom: 0.5rem;
+        padding-right: 10px;
     }
 
     /* Description Styling */
