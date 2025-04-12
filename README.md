@@ -12,7 +12,7 @@ Jasmin Suter - c00301545
 
 The title of our website is ART/SRJ. ART/SRJ is a website used to get commission from artists. Our intention is to make a website that values the artist first, so the focus is to drive work and promote artists. The names ART/SRJ comes from the combination of our different initials. 
 
-The reason we chose this as a website is that a lot of art-based websites are used and promoted more as social media. Although social media elements are important is then can cause an over saturation of users only there for that aspect so the commissions can get lost. This website is to focus on original work. We felt threw was a gap in the marke2t for an art/ commission focused website.  
+The reason we chose this as a website is that a lot of art-based websites are used and promoted more as social media. Although social media elements are important, too much focus can cause an over-saturation of users only there for that aspect so the commissions can get lost. Our websites focus is on original work. We felt there was a gap in the market for an art/ commission focused website.  
 
 User personas  
 
@@ -45,6 +45,7 @@ Action: She feels overwhelmed at the different options and is unsure which is mo
 Post-Action: Creates a page and shares it with her friends to show her projects. 
 
 Review: “It was hard finding the right site. Many of them were similar. This site was the least intimidating and was beginner friendly. “ 
+
 
 Jennifer’s journey: 
 
@@ -83,6 +84,7 @@ Post-Action: Takes a little while for people to find her art, but slowly gains m
 Emotions: Frustrated, then relieved 
 
 Review: “It is nice to get more of a following, and I hope the commissions feature will help me out some more. “ 
+
 
 Mike’s journey:   
 
@@ -130,11 +132,11 @@ Review: “I felt unsure which site would be best to upload my art. I liked that
 
 Key Features 
 
-For the website itself we have a few main goals. The main user needs are to have a profile, A discovery page and a commission page. Our goal is to make a page for each of these. To have the main page where there is a gride of visual content that the user can navigate. Along the top of the page to have navigation between the different pages. At the bottom of the footer to have core pages such as FAQ, contact, news etc. The commission page would have a form that the user can fill in to either request or apply for a commission. The users page would have a profile picture and general information about the user. The users upload would also be on their profile page.  
+For the website itself we have a few main goals. The main user needs are to have a profile, a discovery page and a commission page. Our goal is to make a page for each of these. To have the main page where there is a grid of visual content that the user can navigate. Along the top of the page to have navigation between the different pages. At the bottom of the footer to have core pages such as FAQ, contact, news etc. The commission page would have a form that the user can fill in to either request or apply for a commission. The users page would have a profile picture and general information about the user. We also want an upload feature so the user can upload their pictures to the website.  
 
-The pages on our website are the homepage, 404, about, blog, FAQ, login, profile, requests, terms and conditions and the requests page. 
+The pages on our website are the homepage, 404, about, blog, FAQ, login, profile, requests, terms and conditions, uploads and the requests page. 
 
-The interactive elements include page navigation, The hamburger menu on the smaller screen. The images themselves. The profile page, searching, the logo, and the login page.  
+The interactive elements include page navigation, The hamburger menu on the smaller screen. The images themselves. The profile page, searching, the logo, the login page and the upload feature.  
 
  We used GitHub, Microsoft word, svelte, HTML/CSS, discord and procreate to make the website. These Microsoft words were used to organize information and references. Procreate was used to create the assets for the website, wireframes, and branding choices. Discord was used for communication. 
 
@@ -150,7 +152,7 @@ Sophia (SophiaStanley): For the website I worked on the Request, Log in, and FAQ
 
  
 
-Jasmin: I worked on the Profile page, the user terms and the news page, as well as helping with design choices. One of the main challenges was actually understanding svelte overall. At first it was a bit of a struggle to get used to it, but after using it for a while it feels like a very helpful tool. The other big challenge was the profile page as I had to learn how to use the card feature, how to style and animate them and how to fit images into them without messing up the whole layout. I created multiple different cards so they can look differently depending on their function. Initially I wanted the card to expand to the size of the image once hovered over, however this proofed too difficult to implement and I opted for showing the whole image inside the slightly enlarged card instead, but this would be something I’d like to improve if I continued working on the page. Overall, I definitely learned how much time is actually needed to get a website running and how many components are needed to have a well-designed and intuitive website. 
+Jasmin: I worked on the Profile page, the user terms, the news page and the upload page, as well as helping with design choices. One of the main challenges was actually understanding svelte overall. At first it was a bit of a struggle to get used to it, but after using it for a while it feels like a very helpful tool. The other big challenge was the profile page as I had to learn how to use the card feature, how to style and animate them and how to fit images into them without messing up the whole layout. I created multiple different cards so they can look differently depending on their function. Initially I wanted the card to expand to the size of the image once hovered over, however this proofed too complicated to implement and I opted for showing the whole image inside a slightly enlarged card instead, but this would be something I’d like to improve if I continued working on the page. The upload feature was also a learning curve, especially figuring out how to actually display the uploaded image. For now it only shows a preview on the upload page, but I would definitely improve it so the images the user uploads actually show up on the profile and homepage. Overall, I definitely learned how much time is actually needed to get a website running and how many components are needed to have a well-designed and intuitive website. 
 
 Deployment notes. 
 
@@ -166,7 +168,7 @@ What went well in this project was the design and concept. We had a very clear v
 
 What can be improved would be better communication throughout the project. We also should have set out with more realistic goals as the website design had a lot more interactions compared to the website as of current. 
 
-For future development there would need to be a focus on the images. How to upload them. To create an algorithm for the main page. To get them to display on people's profiles.  
+For future development there would need to be a focus on the images. How to upload them and display them on other pages. To create an algorithm for the main page. To get them to display on people's profiles.  
 
  
 
