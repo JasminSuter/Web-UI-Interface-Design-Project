@@ -55,7 +55,6 @@
     /* Apply a hover effect: spotlight effect on the hovered card */
     :global(.gallery > .img:hover) {
         transform: scale(1.1); /* Scale up the hovered card */
-        z-index: 2; /* Bring it to the front */
     }
 
     /* Reduce the size of adjacent siblings when a card is hovered */

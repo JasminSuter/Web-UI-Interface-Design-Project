@@ -31,6 +31,7 @@
         margin: 0;
         display: flex;
         justify-content: center;
+        z-index: 3;
     }
     
     nav ul li {
@@ -68,6 +69,7 @@
             display: block; /* Show burger icon */
             left: 90%;
             transition: 0.25s;
+            z-index: 2;
         }
 
         .burger:hover {
@@ -78,7 +80,7 @@
             display: none; /* Hide menu by default */
             flex-direction: column;
             position: absolute;
-            top: 100px;
+            top: 90px;
             left: 0;
             width: 100%;
             background: #111111;

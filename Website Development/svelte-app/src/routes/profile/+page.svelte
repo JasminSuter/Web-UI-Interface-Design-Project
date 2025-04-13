@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
     import { Card } from '$lib';
 	import ProfileCard from '$lib/components/ProfileCard.svelte';
-
+    
     onMount(() => {
         console.log("Profile Page Loaded");
     })
@@ -21,7 +21,7 @@
         <ProfileCard title="Max Muster" description="Hello! I am an artist doing art and stuff. Here is some of my art :)" 
         medium="2D Digital Art and Illustrations" genre="Fantasy, DnD, Comics, Illustrations"  
         price="Starting at €20 for characters, +€15 for each following character or background elements" 
-        other="I mostly draw fantasy art of silly characters, but I'm open for anything so just message me if you like my artsyle!" image="PROFILE_1.png"/>
+        other="I mostly draw fantasy art of silly characters, but I'm open for anything so just message me if you like my artsyle!" image="/PROFILE_1.png"/>
         
     </div>
 
@@ -31,16 +31,22 @@
 <div class="column right">
 <!-- Image Containers in the gallery -->
     <div class="image">
-        <Card title="Hugs" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="TEST_1.png"/>
-        <Card title="Learnean Menace" description="A greek themed dnd party." image="TEST_2.png"/>
-        <Card title="Beyond the forest creek" description="This is a commission I did for a childrens book" image="TEST_3.png"/>
-        <Card title="The Troubleshooters" description="From left to right: Kassa a dhampir necromancer, Kalina a fetchling witch, Noro a halfling barbarian and Sy'len a ghost fighter" image="TEST_4.png"/>
-        <Card title="DnD Party" description="I drew my dnd group!" image="TEST_5.png"/>
-        <Card title="AAAAAHHHHHHHHHH" description="A scene from my dnd game lol" image="TEST_6.png"/>
+        <Card title="Hugs" description="In this image you can see Hugs, a firbolg barbarian making friends with a little forest critter :)." image="/TEST_1.png"/>
+        <Card title="Learnean Menace" description="A greek themed dnd party." image="/TEST_2.png"/>
+        <Card title="Beyond the forest creek" description="This is a commission I did for a childrens book" image="/TEST_3.png"/>
+        <Card title="The Troubleshooters" description="From left to right: Kassa a dhampir necromancer, Kalina a fetchling witch, Noro a halfling barbarian and Sy'len a ghost fighter" image="/TEST_4.png"/>
+        <Card title="DnD Party" description="I drew my dnd group!" image="/TEST_5.png"/>
+        <Card title="AAAAAHHHHHHHHHH" description="A scene from my dnd game lol" image="/TEST_6.png"/>
     </div>
 </div>
 
 <style>
+
+    .image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    }
 
     .column {
         float: left;
@@ -88,7 +94,7 @@
     :global(.image .card:hover) {
         transform: scale(1.8);
         opacity: 1;
-        z-index: 3;
+        z-index: 2;
         transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
@@ -123,4 +129,11 @@
         transform: rotate(360deg); /* Rotates the image 360 degrees */
     }
 
+    /* changing layout on mobile */
+    @media (max-width: 768px) {
+        .right {
+            margin-top: 0rem;
+            margin-left: 0rem;
+        }
+    }
 </style>

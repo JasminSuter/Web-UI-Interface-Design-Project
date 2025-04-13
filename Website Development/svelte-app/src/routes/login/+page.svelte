@@ -86,8 +86,8 @@
 		height: 30px;
 	}
 	.login button {
-		height: 50%;
-		width: 10%;
+		height: 30%;
+		width: 30%;
 	}
 	.login h3 {
 		color: #111111;
